@@ -49,10 +49,6 @@ In fact, there's absolutely no need to cut down or reduce your usage whilst read
 
 You might be apprehensive about the very thought, or one of the millions actively attempting to quit endless scrolling. If so, perhaps what you've already read goes against everything you've ever been told, but ask yourself if what you've been told has worked? If it had, you wouldn't be reading this book at all.
 
-![easypeasy audiobook](https://www.youtube.com/watch?v=ZktxO6adTnI){width="560" height="315"}
-
-<span style="font-size:small;"> (and, there's a [version without talking or water breaks](https://www.youtube.com/watch?v=IXZT8dEfxSs) too, and you can download the ([MP3](https://drive.google.com/file/d/1eU5mB7WXuknAMTgeITsF2MZmAEKG5aFE/view) | [MP3 (uncut)](https://1drv.ms/u/s!AnXDgZXI9WE5j9YGojB-crpKNyGeDw?e=aXyUrd))</span>
-
 Perhaps you identify with the following questions:
 
 -   Do you spend far more time viewing short-form content than you originally intended?
@@ -215,7 +211,7 @@ Throughout this book, myself, the original Hackauthor, and Allen Carr will appea
 
 A number of communities exist for the hackbook as well, but would recommend checking them out only after you've finished reading the book.
 
-[source fork](https://github.com/Trillient/easypeasy-shortform) | [upstream](https://gitlab.com/snuggy/easypeasy) | [feedback form](https://forms.gle/p7cTxowaNpKqgi5Z7)
+[source fork](https://github.com/Trillient/easypeasy-shortform) | [upstream](https://gitlab.com/snuggy/easypeasy)
 
 Quick reminder: <span style="font-size:larger;">**DO NOT JUMP CHAPTERS**</span>
 
