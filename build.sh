@@ -14,6 +14,10 @@ Rscript -e "tinytex::install_tinytex(force = TRUE)"
 Rscript -e "bookdown::render_book('index.Rmd', 'all')"
 
 # Build EasyPeasy translations
+if [ "${BUILD_TRANSLATIONS:-0}" != "1" ]; then
+    exit 0
+fi
+
 buildpath=`pwd`
 langs="de it sv ru so ro sq nl pt-br pl ko uk"
 for lang in $langs
@@ -33,12 +37,12 @@ do
     # find and replace, changing every tagname back to proper sanitized
     # Unicode tagnames.
     ######################################################################
-    
+
     backtick='`'
     newline=$'\n'
     headerid="0"
     sedargs=""
-    
+
     rmdfiles=`ls -1 | grep -iE '\.rmd'`
     while IFS= read -r rmdfile
     do

@@ -1,12 +1,11 @@
-# EasyPeasy
+# EasyPeasy Short-Form
 
-Git repository for EasyPeasy, adapting *Allen Carr's EasyWay to Stop Smoking* for porn addiction.
+Git repository for EasyPeasy Short-Form, adapting EasyPeasy for short-form content addiction across TikTok, Reels, YouTube Shorts, and similar endless feeds.
 
 It's written in R Markdown, and compiled using Bookdown.
 
-[Here is a video on how to use RStudio and Git to edit the hackbook.]() NOT YET, SOON
+This fork keeps the upstream Bookdown build and Pages-style deployment flow.
 
-For minor contributions, you can create a Gitlab account and edit the R Markdown files directly. However, for major changes, you'll probably want to download R Studio and compile it to make sure everything works well.
+Rewrite audit logs are in `rewrite_log/rewrite_changes.sql` and `rewrite_log/rewrite_changes.sqlite`.
 
-Versions are numbered using [semantic versioning](https://semver.org).
-
+Based on [snuggy/easypeasy](https://gitlab.com/snuggy/easypeasy). Book content remains CC BY-SA 4.0. Code remains GPLv3.

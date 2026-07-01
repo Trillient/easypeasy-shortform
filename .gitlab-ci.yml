@@ -12,5 +12,5 @@ image: rocker/verse
 pages:
   extends: .bookdown
   only:
+    - main
     - master
-
